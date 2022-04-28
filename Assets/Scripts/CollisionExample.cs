@@ -18,16 +18,16 @@ public class CollisionExample : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision Enter");
+        Debug.Log("Collision Enter State");
     }
 
     private void OnCollisionStay(Collision collision)
     {
-        Debug.Log("Collison Stay");
+        Debug.Log("Collison Stay State");
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        Debug.Log("Collision Exit");
+        Debug.Log("Collision Exit State");
     }
 }
